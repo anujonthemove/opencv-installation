@@ -78,14 +78,14 @@ printf "\n==============================\n"
 cd ~
 git clone https://github.com/opencv/opencv.git
 cd opencv 
-git checkout 3.3.1 
+git checkout 3.4.4
 
 printf "\nCloning opencv-contrib\n"
 printf "\n==============================\n"
 cd ~
 git clone https://github.com/opencv/opencv_contrib.git
 cd opencv_contrib
-git checkout 3.3.1
+git checkout 3.4.4
 
 cd ~/opencv
 mkdir build
