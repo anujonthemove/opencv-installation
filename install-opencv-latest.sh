@@ -67,7 +67,8 @@ sudo apt-get install --assume-yes libgstreamer1.0-dev libgstreamer-plugins-base1
 sudo apt-get install --assume-yes qt5-default 
 
 # this is for ubuntu 16
-sudo apt-get install --assume-yes libgtk2.0-dev 
+# sudo apt-get install --assume-yes libgtk2.0-dev 
+# sudo apt-get --assume-yes install python-dev
 
 # this is for ubuntu 18
 sudo apt-get install --assume-yes libgtk-3-dev
@@ -106,7 +107,7 @@ sudo apt-get --assume-yes install libavresample-dev
 
 printf "\nInstall essential python dependencies"
 printf "\n======================================\n"
-sudo apt-get --assume-yes install python3-dev python-dev
+sudo apt-get --assume-yes install python3-dev 
 pip install --upgrade pip
 pip install numpy
 
