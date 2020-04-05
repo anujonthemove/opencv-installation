@@ -1,5 +1,5 @@
-# OpenCV 3.x (dependencies included)
-* Tested on Ubuntu 16.04.
+# OpenCV 4.x (dependencies included)
+* Tested on Ubuntu 18.04.
 
 * Pending: steps to install and configure python virtual environment.
  
